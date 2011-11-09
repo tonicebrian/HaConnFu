@@ -1,2 +1,3 @@
-.swp
+*.swp
 dist
+token.dat

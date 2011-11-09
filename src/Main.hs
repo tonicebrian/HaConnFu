@@ -1,2 +1,9 @@
+import ConnFu
+
+runConnFu :: AuthToken -> IO ()
+runConnFu token = undefined
+
 main :: IO ()
-main = undefined
+main = do
+         token <- readFile "token.dat"
+         runConnFu token
