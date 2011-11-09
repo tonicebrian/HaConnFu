@@ -1,0 +1,13 @@
+Name:           HaConnFu
+Version:        0.1
+Cabal-Version:  >= 1.2
+License:        BSD3
+Author:         Toni Cebrián
+Synopsis:       Example client for connecting to ConnFu using Haskell
+Build-Type:     Simple
+
+Executable haconnfu-client
+  Main-Is:        Main.hs
+  Hs-Source-Dirs: src
+  Build-Depends:  base
+
