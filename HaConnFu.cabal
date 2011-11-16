@@ -9,5 +9,7 @@ Build-Type:     Simple
 Executable haconnfu-client
   Main-Is:        Main.hs
   Hs-Source-Dirs: src
-  Build-Depends:  base
+  Build-Depends:  base,
+                  curl,
+                  json >= 0.5
 

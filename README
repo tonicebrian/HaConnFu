@@ -1,0 +1,10 @@
+Example Haskell application that creates a ConnFu client
+
+In order to build:
+
+   > cabal configure
+   > cabal build
+
+For running the client you must have a valid ConnFi token key. 
+Place that key in a file called token.dat
+
